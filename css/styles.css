@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#header-flag-container {
+  width: 60px;
+  fill: red;
+}
+
+#header-flag {
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  padding: 5px;
+}
