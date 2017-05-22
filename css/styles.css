@@ -4,15 +4,32 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   background-image: url(../img/background.jpg);
   background-attachment: fixed;
   background-position: center;
 }
 
+
+#main-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.2);
+}
+
+#header {
+  height: 100px;
+  margin-top: 10px;
+}
+
 #header-flag-container {
   width: 60px;
   fill: red;
+  float: left;
 }
 
 #header-flag {
@@ -20,4 +37,37 @@ body {
   border-radius: 50%;
   width: 50px;
   padding: 5px;
+}
+
+#nav ul, #nav a {
+  float: right;
+}
+
+#nav ul li {
+  display: inline-block;
+}
+
+#nav ul li a {
+  color: white;
+}
+
+.header-button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 30px;
+}
+
+#sign-in {
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+#sign-up {
+  background-color: #ebc321;
+  color: black;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  margin-right: 10px;
+
 }
